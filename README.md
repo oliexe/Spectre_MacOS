@@ -13,6 +13,7 @@ Working:
 - NVMe SSD Storage
 - Shutdown, Reboot
 - Battery
+- Sound, Mic
 - Webcam (Without IR)
 - Touchpad (works perfectly with different gestures)
 - iCloud (iMessage, FaceTime, Handoff) (swap with BCM94352Z)
@@ -39,29 +40,29 @@ What you will need:
 !! Following configs and kexts are needed to boot and use the installer !!
 
 nVME Patch (RehabMan/patch-nvme) (RehabMan, Pike R. Alpha, Mork vom Ork)
-Otherwise internal SSD will NOT be detected by installer
+- Otherwise internal SSD will NOT be detected by installer
 
 HD620 clover config file (RehabMan)
-Otherwise installer wont even boot
+- Otherwise installer wont even boot
 
 USBInjectAll.kext (RehabMan)
-Nice to have that one USB port working
+- Nice to have that one USB port working
 
 VoodooPS2Controller.kext (RehabMan)
-Otherwise no keyboard or touchpad for u
+- Otherwise no keyboard or touchpad for u
 
 FakeSMC.kext (netkas, RehabMan)
-duh...
+- duh...
 
 
 ## Post-Installation:
 
 Step 1 : Add Kexts after installation:
 
-VoodooHDA (autumnrain, slice2009) - Makes audio work
-ACPIBatteryManager.kext (RehabMan)- Battery indicator fix
-FakePCIID.kext + FakePCIID_Intel_HD_Graphics.kext (RehabMan)- Graphics acceleration
-Intel Backlight (RehabMan)- LCD brightness regulation
+- VoodooHDA (autumnrain, slice2009) - Makes audio work
+- ACPIBatteryManager.kext (RehabMan)- Battery indicator fix
+- FakePCIID.kext + FakePCIID_Intel_HD_Graphics.kext (RehabMan)- Graphics acceleration
+- Intel Backlight (RehabMan)- LCD brightness regulation
 
 
 Step 2: DSDT Patching:
@@ -69,13 +70,13 @@ Step 2: DSDT Patching:
 DSDT patching is necessary, in order to continue please read following guide !
 https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/
 
-Brightness Fix
-Battery Fix (battery_HP-G6-2221ss)
-HPET Fix
-SMBUS Fix
-IRQ Fix
-RTC Fix
-OS Check Fix
+- Brightness Fix
+- Battery Fix (battery_HP-G6-2221ss)
+- HPET Fix
+- SMBUS Fix
+- IRQ Fix
+- RTC Fix
+- OS Check Fix
 
 
 Step 3 : Fix graphical glitches in right top corner:
@@ -84,12 +85,11 @@ Credit/Source:
 https://pikeralpha.wordpress.com/2016/10/30/aapl-properties-for-skylake-graphics/
 
 Step 4 (Optional) : Install Recommended software:
-Intel Power Gadget
+ - Intel Power Gadget
 
 Step 5 (Optional) : Wi-Fi Adapter replacement:
-(source)
 
-Chnage to NGFF BCM94352Z
+Change to NGFF BCM94352Z
 - Buy the WIFI Card from eBay (M.2 VERSION)
 - Ignore the compatibility warning (Does not work for HP Laptops)
 - Install the card. Follow instructions (p.24+)
