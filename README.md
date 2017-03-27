@@ -29,7 +29,7 @@ Doesn't work:
 ## Preparation:
 
 Update your machine BIOS to latest version
-Turn off Secure Boot in BIOS !
+and turn off Secure Boot in BIOS !
 
 What you will need:
 - USB thumb drives (One for clover one for macOS installer is in my opinion better)
