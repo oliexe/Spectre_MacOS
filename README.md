@@ -6,7 +6,7 @@ Please use the "Issues" tab for **Spectre 13 x360 late-16 related** issues only.
 
 ## Compatibility
 
-Working:
+#### Working:
 
 - Full Graphics Acceleration
 - Brightness
@@ -19,7 +19,7 @@ Working:
 - iCloud (iMessage, FaceTime, Handoff) (swap with BCM94352Z)
 - WiFi, Bluetooth (swap with BCM94352Z)
 
-Doesn't work:
+#### Doesn't work:
 
 - Thunderbold 3 ports (NO IDEA how to fix it :()
 - Sleep problems (Will look at it and update, I think fixable)
@@ -32,12 +32,12 @@ Doesn't work:
 Update your machine BIOS to latest version
 and turn off Secure Boot in BIOS !
 
-What you will need:
+#### What you will need:
 - USB thumb drives (One for clover one for macOS installer is in my opinion better)
 - macOS machine to work with
 - Knowledge of booting the macOS installer using Clover
 
-!! Following configs and kexts are needed to boot and use the installer !!
+#### Following configs and kexts are needed to boot and use the installer:
 
 nVME Patch (RehabMan/patch-nvme) (RehabMan, Pike R. Alpha, Mork vom Ork)
 - Otherwise internal SSD will NOT be detected by installer
@@ -57,7 +57,7 @@ FakeSMC.kext (netkas, RehabMan)
 
 ## Post-Installation:
 
-Step 1 : Add Kexts after installation:
+#### Step 1 : Add Kexts after installation:
 
 - VoodooHDA (autumnrain, slice2009) - Makes audio work
 - ACPIBatteryManager.kext (RehabMan)- Battery indicator fix
@@ -65,7 +65,7 @@ Step 1 : Add Kexts after installation:
 - Intel Backlight (RehabMan)- LCD brightness regulation
 
 
-Step 2: DSDT Patching:
+#### Step 2: DSDT Patching:
 
 DSDT patching is necessary, in order to continue please read following guide !
 https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/
@@ -79,15 +79,15 @@ https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/
 - OS Check Fix
 
 
-Step 3 : Fix graphical glitches in right top corner:
+#### Step 3 : Fix graphical glitches in right top corner:
 
 Credit/Source:
 https://pikeralpha.wordpress.com/2016/10/30/aapl-properties-for-skylake-graphics/
 
-Step 4 (Optional) : Install Recommended software:
+#### Step 4 (Optional) : Install Recommended software:
  - Intel Power Gadget
 
-Step 5 (Optional) : Wi-Fi Adapter replacement:
+#### Step 5 (Optional) : Wi-Fi Adapter replacement:
 
 Change to NGFF BCM94352Z
 - Buy the WIFI Card from eBay (M.2 VERSION)
