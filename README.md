@@ -1,5 +1,5 @@
 # MacOS on HP Spectre x360 (Late-2016 / Early-2017)
-<img src="https://www.tonymacx86.com/proxy.php?image=http%3A%2F%2Foi67.tinypic.com%2Fj7ffqt.jpg&hash=d314a87e96e65e94d70e69eb2823274a" width="640" width="480">
+
 
 Please use the "Issues" tab for **Spectre 13 x360 late-16 related** issues only. If you need support please search on [tonymacx86.com](http://tonymacx86.com) before posting a question there.
 
